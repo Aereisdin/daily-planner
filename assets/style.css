@@ -27,4 +27,27 @@ html {
     transform: translate(-50%, -50%);
     color: white;
   }
-  
+.time {
+    background-color: white;
+    color: black;
+    height: 75px;
+    border: #444 solid;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    border-radius: 25px 0px 0px 25px;
+}
+.text {
+    background-color: white;
+    color: black;
+    height: 75px;
+    border: #444 solid;
+}
+.save {
+    background-color: cadetblue;
+    height: 75px;
+    border: #444 solid;
+}
+i {
+  padding: 19% 0% 0% 21% ;
+}
