@@ -51,6 +51,7 @@ html {
     background-color: #5c8a8a;
     height: 75px;
     border: #444 solid;
+    cursor: pointer;
 }
 i {
   padding: 19% 0% 0% 21% ;
@@ -59,7 +60,7 @@ i {
     font-size: 18pt;
 }
 textarea {
-    border: none;
+    border: none; /* my attempt to remove the box border on the textarea */
     overflow: auto;
     outline: none;
 
