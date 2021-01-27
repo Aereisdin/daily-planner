@@ -48,7 +48,7 @@ html {
     border: #444 solid;
 }
 .save {
-    background-color: cadetblue;
+    background-color: #5c8a8a;
     height: 75px;
     border: #444 solid;
 }
@@ -57,4 +57,15 @@ i {
 }
 .textField {
     font-size: 18pt;
+}
+textarea {
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
 }
