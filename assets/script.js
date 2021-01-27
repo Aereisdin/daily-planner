@@ -1,5 +1,19 @@
 $(document).ready(function() {
 
+var DateTime = luxon.DateTime;
+var dt = DateTime.local();
+var now = dt.toLocaleString(DateTime.DATE_HUGE);
+var mon = now.substr(0, 6);
+var tues = now.substr(0, 7);
+var weds = now.substr(0, 9);
+var thurs = now.substr(0, 8);
+var fri = now.substr(0, 6);
+
+$("#now").text(now)
+
+if(mon == 'Monday' || tues == 'Tuesday' || weds == 'Wednesday' || thurs == 'Thursday' || fri == 'Friday')
+{console.log("It works")}
+
 var appt9 = localStorage.getItem("appt9", function() {
     if("appt9" === null){appt9 = ""}
 });
